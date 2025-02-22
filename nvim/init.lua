@@ -96,6 +96,11 @@ g.editorconfig = true
 
 vim.opt.colorcolumn = '80'
 
+require("catppuccin").setup({
+  flavour = "mocha"
+})
+cmd("colorscheme catppuccin-mocha")
+
 -- Native plugins
 cmd.filetype('plugin', 'indent', 'on')
 cmd.packadd('cfilter') -- Allows filtering the quickfix list with :cfdo
