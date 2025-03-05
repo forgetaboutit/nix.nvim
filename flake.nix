@@ -49,6 +49,7 @@
           # Tools for Lua and Nix development, useful for editing files in this repo
           lua-language-server
           nil
+          haskell-language-server
           stylua
           luajitPackages.luacheck
         ];
