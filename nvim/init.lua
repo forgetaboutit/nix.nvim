@@ -39,7 +39,7 @@ opt.tabstop = 2
 opt.softtabstop = 2
 opt.shiftwidth = 2
 -- Try to use smart indents for new lines
-opt.smartindent = true;
+opt.smartindent = true
 
 opt.foldenable = true
 
@@ -58,7 +58,7 @@ opt.cmdheight = 0
 -- Never show more than 8 empty rows on the bottom if possible
 opt.scrolloff = 8
 -- Always show the sign column to prevent jumpiness
-opt.signcolumn = "yes"
+opt.signcolumn = 'yes'
 -- Idleness in milliseconds to update the swap file for recovery
 opt.updatetime = 50
 
@@ -116,10 +116,10 @@ g.editorconfig = true
 
 vim.opt.colorcolumn = '80'
 
-require("catppuccin").setup({
-  flavour = "mocha"
-})
-cmd("colorscheme catppuccin-mocha")
+require('catppuccin').setup {
+  flavour = 'mocha',
+}
+cmd('colorscheme catppuccin-mocha')
 
 -- Native plugins
 cmd.filetype('plugin', 'indent', 'on')
