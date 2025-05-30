@@ -91,6 +91,8 @@ with final.pkgs.lib; let
     lua-language-server
     nil # nix LSP
     haskell-language-server # haskell LSP
+    # Elixir language server
+    beamMinimal27Packages.elixir-ls
   ];
 in {
   # This is the neovim derivation
